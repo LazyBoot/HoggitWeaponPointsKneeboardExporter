@@ -36,8 +36,12 @@ namespace HoggitWeaponPointsKneeboardExporterConsole
             //Configure This
             //Font tahomaFont = new Font("Tahoma", 30);//this is the font I designed this with. title was 40. everythign else was 30
             //Font chosenFont_notTitle = new Font("Tahoma", 30);
-            Font chosenFont_Title = new Font("Tox Typewriter", 40, FontStyle.Bold);//your system may not have this. It is nice though
-            Font chosenFont_notTitle = new Font("Tox Typewriter", 30, FontStyle.Bold);//your system may not have this. It is nice though
+
+            var privateFonts = new System.Drawing.Text.PrivateFontCollection();
+            privateFonts.AddFontFile(@"Tox Typewriter.ttf");
+
+            Font chosenFont_Title = new Font(privateFonts.Families[0], 40, FontStyle.Bold);//your system may not have this. It is nice though
+            Font chosenFont_notTitle = new Font(privateFonts.Families[0], 30, FontStyle.Bold);//your system may not have this. It is nice though
 
 
 
