@@ -4,12 +4,13 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 
 namespace HoggitWeaponPointsKneeboardExporterConsole
 {
     class Program
     {
-
+        private static string CurrentPath;
 
         static void Main(FileInfo inputFile, string outputFolder)
         {
@@ -18,6 +19,8 @@ namespace HoggitWeaponPointsKneeboardExporterConsole
                 Console.WriteLine("Use --help for parameters");
                 return;
             }
+
+            CurrentPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
             DoTheThing(inputFile, outputFolder);
         }
@@ -36,9 +39,9 @@ namespace HoggitWeaponPointsKneeboardExporterConsole
             //Configure This
             //Font tahomaFont = new Font("Tahoma", 30);//this is the font I designed this with. title was 40. everythign else was 30
             //Font chosenFont_notTitle = new Font("Tahoma", 30);
-
+            
             var privateFonts = new System.Drawing.Text.PrivateFontCollection();
-            privateFonts.AddFontFile(@"Tox Typewriter.ttf");
+            privateFonts.AddFontFile(Path.Combine(CurrentPath, @"Tox Typewriter.ttf"));
 
             Font chosenFont_Title = new Font(privateFonts.Families[0], 40, FontStyle.Bold);//your system may not have this. It is nice though
             Font chosenFont_notTitle = new Font(privateFonts.Families[0], 30, FontStyle.Bold);//your system may not have this. It is nice though
@@ -66,7 +69,7 @@ namespace HoggitWeaponPointsKneeboardExporterConsole
             json.Replace('_', '-');//replaces the underscores with dashes. This does not work.
 
             //Configure This
-            using (var src = new Bitmap(@"kneepad.png"))//this is the background image location. DCS likes 4:6 kneeboard ratio
+            using (var src = new Bitmap(Path.Combine(CurrentPath, @"kneepad.png")))//this is the background image location. DCS likes 4:6 kneeboard ratio
             using (var bmp = new Bitmap(imageWidth, imageHeight, PixelFormat.Format32bppPArgb))//sets the drawing area (?)
             using (var gr = Graphics.FromImage(bmp))//time to draw
             {
