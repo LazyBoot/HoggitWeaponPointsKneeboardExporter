@@ -1,0 +1,175 @@
+{
+  "AIM-120C": {
+    "points": 5,
+    "category": "Air"
+  },
+  "AIM-120B": {
+    "points": 5,
+    "category": "Air"
+  },
+  "SD-10": {
+    "points": 5,
+    "category": "Air"
+  },
+  "AIM_54C_Mk47": {
+    "points": 5,
+    "category": "Air"
+  },
+  "AIM_54A_Mk47": {
+    "points": 5,
+    "category": "Air"
+  },
+  "AIM_54A_Mk60": {
+    "points": 5,
+    "category": "Air"
+  },
+
+  "GBU-12": {
+    "points": 5,
+    "category": "Ground"
+  },
+  "GBU-16": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "GBU-10": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "GBU-38": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "GBU-54(V)1/B": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "GBU-31": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "GBU-31(V)3/B": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "CBU-87": {
+    "points": 5,
+    "category": "Ground"
+  },
+  "CBU-99": {
+    "points": 5,
+    "category": "Ground"
+  },
+  "CBU-103": {
+    "points": 5,
+    "category": "Ground"
+  },
+  "CBU-97": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "CBU-105": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "AGM-62 Walleye II": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "HYDRA-70 MPP APKWS": {
+    "points": 1,
+    "category": "Ground"
+  },
+  "HYDRA-70 HE APKWS": {
+    "points": 1,
+    "category": "Ground"
+  },
+  "AGM-65D": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-65E": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-65L": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-65F": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-65G": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-65H": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-65K": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-154C": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "AGM-154A": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "AGM-122": {
+    "points": 5,
+    "category": "Ground"
+  },
+  "AGM-88C": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "AGM-84D": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "AGM-84E SLAM": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "CM-802AKG": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "C-802AK": {
+    "points": 15,
+    "category": "Ground"
+  },
+  "C-701IR": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "C-701T": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "LD-10": {
+    "points": 10,
+    "category": "Ground"
+  },
+  "LS-5-600": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "GB-6W": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "GB-6-HE": {
+    "points": 25,
+    "category": "Ground"
+  },
+  "GB-6-SFW": {
+    "points": 30,
+    "category": "Ground"
+  }
+}
