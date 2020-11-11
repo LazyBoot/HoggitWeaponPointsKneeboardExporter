@@ -41,7 +41,7 @@ namespace HoggitWeaponPointsKneeboardExporter
         private void Form1_Load(object sender, EventArgs e)
         {
             //Configure This
-            string fileLocation = @"E:\Games\DCS Documents\Projects\Hoggit Kneeboard Generator\";//this is the directory where all the files are. edit out personal info
+            string fileLocation = @"C:\...\Projects\Hoggit Kneeboard Generator\";//this is the directory where all the files are. edit out personal info
             int pageNumber = 1;//this is the first page number for the kneeboard
 
             //https://stackoverflow.com/questions/24174823/how-to-draw-a-part-of-a-png-image-c-sharp
