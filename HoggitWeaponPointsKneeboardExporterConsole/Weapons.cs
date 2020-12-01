@@ -9,7 +9,7 @@ namespace HoggitWeaponPointsKneeboardExporterConsole
     public class Weapons
     {
         [JsonPropertyName("points")]
-        public long Points { get; set; }
+        public double Points { get; set; }
 
         [JsonPropertyName("category")]
         public string Category { get; set; }
